@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "han2kip"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   { name="林怡萱", email="qw123455544@gmail.com"}, { name="林柏廷", email="botinholmes@gmail.com"}
 ]
