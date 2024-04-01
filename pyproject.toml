@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "han2kip"
+version = "0.0.1"
+authors = [
+  { name="林怡萱", email="qw123455544@gmail.com"}, { name="林柏廷", email="botinholmes@gmail.com"}
+]
+description = "han2kip is a package for converting Taiwanese Hokkien Hanzi to its phonetic representation."
+readme = "README.md"
+license = { file="LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+        "jieba>=0.42.1",
+    ]
+
+[project.urls]
+"Homepage" = "https://github.com/juliaouo/han2kip"
