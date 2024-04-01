@@ -1,8 +1,10 @@
 import jieba
+import logging
 import json
 import re
 import os
 
+jieba.setLogLevel(logging.INFO)
 
 current_file_path = os.path.realpath(__file__)
 base_path = '\\'.join(current_file_path.split('\\')[:-1]) + '\\data\\'
