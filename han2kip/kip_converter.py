@@ -5,7 +5,7 @@ import os
 
 
 current_file_path = os.path.realpath(__file__)
-base_path = '\\'.join(current_file_path.split('\\')[:-2]) + '\\data\\'
+base_path = '\\'.join(current_file_path.split('\\')[:-1]) + '\\data\\'
 han2kip = json.load(open(base_path + 'words.json', 'r', encoding='utf-8'))
 jieba.load_userdict(base_path + 'dict.txt')
 punctuation = re.compile(r'[\u0021-\u002F\u003A-\u0040\u005B-\u0060\u007B-\u007E\u3000-\u303F\uFF01-\uFF5E]+')
